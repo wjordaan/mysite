@@ -1,0 +1,219 @@
+.header {
+    background-image:url(images/digital-background.jpg);
+    background-position: center;
+    height: 220px;
+    padding-top: 40px;  
+    color: white;
+    font-family: Arial;
+    text-align: center;
+    z-index: 9;
+}
+.header > img {
+    border-radius: 50px;
+    border: 2px solid white;
+    margin-top: 20px;
+    z-index: 11;
+}
+.header > h1 {font-size: 18px;}
+.sub-header {
+    background-image:url(images/digital-background.jpg);
+    background-position: center;
+    height: 259px;
+    padding-top: 79px;  
+    color: white;
+    font-family: Arial;
+    text-align: center;
+    z-index: 9;
+}
+.sub-header > img {
+    border-radius: 50px;
+    border: 2px solid white;
+    margin-top: 20px;
+    z-index: 9;
+}
+.sub-header > h1 {font-size: 18px;}
+.upper {font-size: 22px;}
+.email-phone{text-decoration: none; color:white;}
+.mainpage {
+    font-family:arial;
+    color:rgb(89,81,84);
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+body { margin: 0; padding: 0; }
+
+h1 {
+    color:White;
+    text-align:center;            
+}
+
+h2 {
+    text-align:center;
+    /*background-image:url(images/digital-background.jpg);*/
+    background-position: center;
+    padding: 5px;
+    color:rgb(0, 94, 184);
+    opacity: 0.8;
+    border-bottom: 3px solid rgb(234,170,0);
+}
+p {
+    text-decoration: none;
+}
+
+.project-pic {margin:1%;}
+.project-pic-small {margin:1%;max-width: 200px;}
+.project-pic-med {margin:1%;max-width: 250px;}
+.project-pic-large {margin:1%;max-width: 350px;}
+
+
+.project-desc{padding: 1%;}
+.project {display: inline-block;width: 100%;text-align: justify;}
+
+.position {display:inline-block; vertical-align: middle;}
+.date {display:table-cell; text-align:right;}
+
+.position-logo {
+    width:8%;
+    display:inline;
+    vertical-align: middle;
+    margin-right:10px;  
+}
+.sub-position-logo {
+    width:30%;
+    display:inline; 
+    vertical-align: middle;
+    margin-right:10px;  
+}
+.expertise, .techskills {
+    text-align:center;
+}
+
+.company {
+    display:inline-table;
+    width:100%;
+    font-size:14px;
+}
+
+.company > span {
+    display: table-cell;
+}
+
+.company > span:first-child {
+    text-align:right;
+}
+
+.education {
+    display:table;
+    width:100%;
+    font-size:14px;
+}
+.education > span {
+    display: table-cell;
+}
+
+.education > span:first-child {
+    font-size:16px;
+}
+
+.education > span:last-child {
+    text-align:right;
+}
+
+.navigation ul {
+    font-family: arial;
+    font-size: 20px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    width: 100%;
+    overflow: hidden;
+    background-color: #696969;
+    z-index: 10;
+}
+
+.navigation li {float: left;}
+
+.navigation li a {
+    display: inline-block;
+    color: White;
+    padding: 8px 16px;
+    text-decoration: none;
+    text-align:center;        
+}
+/* Change the link color on hover */
+.navigation li a:hover{
+    background-color: rgb(40, 55, 71);
+    color: white;
+} 
+/*Navigation pane on right*/
+.sub-navigation ul {
+    font-family: arial;
+    font-size: 16px;
+    list-style-type: none;
+    top: 39px;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    width: 100%;
+    overflow: hidden;
+    background-color: #f1f1f1;
+    z-index: 8;
+}
+.sub-navigation li {float: left;}
+.sub-navigation li a {
+    display: inline-block;
+    color: rgb(89,81,84);
+    padding: 8px 16px;
+    text-decoration: none;
+    text-align:center; 
+    z-index: 8;
+}
+.sub-navigation li a:hover{
+    background-color: rgb(40, 55, 71);
+    color: white;
+    opacity: 0.85;
+    z-index: 11;  
+} 
+/*Non-Main pages*/
+.sub-mainpage {
+    font-family:arial;
+    color:rgb(89,81,84);
+    margin-left: 10%;
+    margin-right: 31%;
+}
+/*corporate contact links*/
+.logolink {
+    float:right;
+    margin-left: 60%;
+    width: 40%;
+    color: rgb(89,81,84);
+    padding: 0px;
+    margin-bottom: 0px;
+    list-style-type: none;
+    z-index: 10;
+    position: fixed;
+    overflow: hidden;
+}
+.logolink ul{
+    list-style-type: none;    
+    margin: 0;
+    padding: 0;
+}
+.logolink li a {
+    display: inline-block;
+    color: rgb(89,81,84);
+    padding: 0px 0px;
+    text-decoration: none;
+    text-align:center;
+}   
+.active {
+    background-color: rgb(179, 179, 180);
+    color: white;
+}
+
+.active li a{
+    background-color: rgb(180, 179, 179);
+    color: white;
+} 
