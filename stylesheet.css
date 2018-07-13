@@ -40,6 +40,8 @@
     margin-left: 10%;
     margin-right: 10%;
 }
+.para {text-align: justify;}
+.mainpage > p {text-align: justify;}
 
 body { margin: 0; padding: 0; }
 
