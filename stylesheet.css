@@ -233,7 +233,6 @@ p {
         top:50px;
         visibility: hidden;
     }
-    .sub-header p{font-size:26px;}
     
     .navigation li a {
         display: inline-block;
@@ -252,9 +251,11 @@ p {
     }
     .header {height: 270px;padding-top: 79px;}
     .header h1 {font-size: 30px;}
+    .header p{font-size:26px;}
     .sub-header {height: 270px;}
     .sub-header h1 {font-size: 30px;}
-    .upper {font-size: 32px;}
+    .sub-header p{font-size:26px;}    
+    .upper {font-size: 34px;}
 
     .position h3 {font-size: 30px;}
     .position-logo {width:20%;}
