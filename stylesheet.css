@@ -226,25 +226,25 @@ p {
 
 @media screen and (max-device-width:800px) {
     .navigation ul {
-        font-size: 30px;
-        height: 50px;
+        font-size: 36px;
+        height: 80px;
     }
     .sub-navigation ul {
         top:50px;
         visibility: hidden;
     }
-    .sub-header p{font-size:18px;}
+    .sub-header p{font-size:26px;}
     
     .navigation li a {
         display: inline-block;
         color: White;
-        padding: 10px 24px;
-        height: 39px;
+        padding: 22px 24px;
+        height: 80px;
         vertical-align: middle;    
         text-decoration: none;
         text-align:center;        
     }
-    .icon img {height: 50px;}
+    .icon img {height: 78px;}
     .mainpage {
         margin-left: 5%;
         margin-right: 5%;
