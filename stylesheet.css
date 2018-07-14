@@ -94,7 +94,7 @@ p {
     margin-top: 10px;
 }
 .pos-desc-box {
-    margin-left: 9%;
+    margin-left: 11%;
     padding: 0;
     margin-right: 10%;
     border-top: 1px solid rgb(177,179,179);
@@ -108,7 +108,8 @@ p {
     width:8%;
     display:inline;
     vertical-align: middle;
-    margin-right:10px;  
+    margin-right:10px;
+    margin-left:2%;  
 }
 .sub-position-logo {
     width:30%;
