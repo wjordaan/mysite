@@ -238,15 +238,19 @@ p {
     .navigation li a {
         display: inline-block;
         color: White;
-        padding: 22px 24px;
+        padding: 22px 22px;
         height: 80px;
         vertical-align: middle;    
         text-decoration: none;
         text-align:center;        
     }
     .icon img {height: 78px;}
+    .logolink {width: 25%;;}
     .mainpage {
         margin-left: 5%;
         margin-right: 5%;
     }
+    h1 {font-size: 32px;}
+    .upper {font-size: 32px;}
+    p {font-size: 16px;}
 }
