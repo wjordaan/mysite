@@ -68,11 +68,15 @@ p {
 .project-pic-med {margin:1%;max-width: 250px;}
 .project-pic-large {margin:1%;max-width: 350px;}
 
-
 .project-desc{padding: 1%;}
 .project {display: inline-block;width: 100%;text-align: justify;}
 
 .position {display:inline-block; vertical-align: middle;}
+.pos-box {
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.15), 0 4px 10px 0 rgba(0, 0, 0, 0.14);
+    padding: 10px;
+    margin-top: 10px;
+}
 .date {display:table-cell; text-align:right;}
 
 .position-logo {
