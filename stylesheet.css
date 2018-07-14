@@ -245,16 +245,21 @@ p {
         text-align:center;        
     }
     .icon img {height: 78px;}
-    .logolink {width: 25%; float: right;}
+    .logolink {width: 25%; margin-left:75%;float: right;}
     .mainpage {
         margin-left: 5%;
         margin-right: 5%;
     }
-    .header h1 {font-size: 32px;}
-    .sub-header h1 {font-size: 32px;}
+    .header h1 {font-size: 30px; height: 280px;}
+    .sub-header h1 {font-size: 30px; height: 280px;}
     .upper {font-size: 32px;}
-    p {font-size: 20px;}
+
+    .position h3 {font-size: 24px;}
+    .company {font-size: 18px;}
+
+    p, ul {font-size: 20px;}
     h2 {font-size: 26px;}
     h3 {font-size: 22px;}
+
     
 }
