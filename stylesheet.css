@@ -270,7 +270,7 @@ p {
     .navigation li a {
         display: inline-block;
         color: White;
-        padding: 22px 22px;
+        padding: 6px 22px;
         height: 80px;
         vertical-align: middle;    
         text-decoration: none;
@@ -282,10 +282,10 @@ p {
         margin-left: 5%;
         margin-right: 5%;
     }
-    .header {height: 270px;padding-top: 79px;}
+    .header {height: 280px;padding-top: 79px;}
     .header h1 {font-size: 30px;}
     .header p{font-size:26px;}
-    .sub-header {height: 270px;}
+    .sub-header {height: 280px;}
     .sub-header h1 {font-size: 30px;}
     .sub-header p{font-size:26px;}    
     .upper {font-size: 34px;}
