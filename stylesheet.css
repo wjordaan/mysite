@@ -2,7 +2,7 @@
     background-image:url(images/digital-background.jpg);
     background-position: center;
     height: 220px;
-    padding-top: 40px;  
+    padding-top: 40px;
     color: white;
     font-family: Arial;
     text-align: center;
@@ -37,8 +37,8 @@
 .mainpage {
     font-family:arial;
     color:rgb(89,81,84);
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 .para {text-align: justify;}
 .mainpage > p {text-align: justify;}
@@ -63,7 +63,7 @@ p {
     text-decoration: none;
 }
 
-.project-pic {margin:1%;}
+.project-pic {margin:1%;box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);}
 .project-pic-small {margin:1%;max-width: 200px;}
 .project-pic-med {margin:1%;max-width: 250px;}
 .project-pic-large {margin:1%;max-width: 350px;}
@@ -95,6 +95,7 @@ p {
     display:inline-table;
     width:100%;
     font-size:14px;
+    font-weight:normal;;
 }
 
 .company > span {
@@ -124,7 +125,8 @@ p {
 
 .navigation ul {
     font-family: arial;
-    font-size: 20px;
+    font-size: 18px;
+    height: 39px;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -140,7 +142,9 @@ p {
 .navigation li a {
     display: inline-block;
     color: White;
-    padding: 8px 16px;
+    padding: 10px 24px;
+    height: 39px;
+    vertical-align: middle;    
     text-decoration: none;
     text-align:center;        
 }
@@ -211,7 +215,7 @@ p {
     text-align:center;
 }   
 .active {
-    background-color: rgb(179, 179, 180);
+    background-color: rgb(133, 133, 133);
     color: white;
 }
 
@@ -219,3 +223,25 @@ p {
     background-color: rgb(180, 179, 179);
     color: white;
 } 
+
+@media screen and (max-width:800px) {
+    .navigation ul {
+        font-size: 30px;
+        height: 50px;
+    }
+    .sub-navigation ul {
+        top:50px;
+        visibility: hidden;
+    }
+    
+    .navigation li a {
+        display: inline-block;
+        color: White;
+        padding: 10px 24px;
+        height: 39px;
+        vertical-align: middle;    
+        text-decoration: none;
+        text-align:center;        
+    }
+    .icon img {height: 50px;;}
+}
