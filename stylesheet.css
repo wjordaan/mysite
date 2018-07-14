@@ -245,12 +245,16 @@ p {
         text-align:center;        
     }
     .icon img {height: 78px;}
-    .logolink {width: 25%;;}
+    .logolink {width: 25%; float: right;}
     .mainpage {
         margin-left: 5%;
         margin-right: 5%;
     }
-    h1 {font-size: 32px;}
+    .header h1 {font-size: 32px;}
+    .sub-header h1 {font-size: 32px;}
     .upper {font-size: 32px;}
-    p {font-size: 16px;}
+    p {font-size: 20px;}
+    h2 {font-size: 26px;}
+    h3 {font-size: 22px;}
+    
 }
