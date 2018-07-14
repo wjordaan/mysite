@@ -57,16 +57,24 @@ h2 {
     padding: 5px;
     color:rgb(0, 94, 184);
     opacity: 0.8;
-    border-bottom: 3px solid rgb(234,170,0);
+    border-bottom: 3px solid rgba(234, 172, 0, 0.37);
+
 }
 p {
     text-decoration: none;
 }
 
-.project-pic {margin:1%;box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);}
+.project-pic {
+    margin:1%;
+    max-width: 450px;
+}
 .project-pic-small {margin:1%;max-width: 200px;}
 .project-pic-med {margin:1%;max-width: 250px;}
 .project-pic-large {margin:1%;max-width: 350px;}
+
+.project h2 {
+    margin-top: 0;
+}
 
 .project-desc{padding: 1%;}
 .project {display: inline-block;width: 100%;text-align: justify;}
@@ -77,6 +85,7 @@ p {
     padding: 10px;
     margin-top: 10px;
 }
+
 .date {display:table-cell; text-align:right;}
 
 .position-logo {
