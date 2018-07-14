@@ -250,8 +250,9 @@ p {
         margin-left: 5%;
         margin-right: 5%;
     }
-    .header {height: 280px;}
+    .header {height: 270px;padding-top: 79px;}
     .header h1 {font-size: 30px;}
+    .sub-header {height: 270px;}
     .sub-header h1 {font-size: 30px;}
     .upper {font-size: 32px;}
 
