@@ -65,12 +65,12 @@ p {
 }
 
 .project-pic {
-    margin:1%;
+    margin:1.5%;
     max-width: 450px;
 }
-.project-pic-small {margin:1%;max-width: 200px;}
-.project-pic-med {margin:1%;max-width: 250px;}
-.project-pic-large {margin:1%;max-width: 350px;}
+.project-pic-small {margin:1.5%;max-width: 200px;}
+.project-pic-med {margin:1.5%;max-width: 250px;}
+.project-pic-large {margin:1.5%;max-width: 350px;}
 
 .project h2 {
     margin-top: 0;
@@ -261,6 +261,8 @@ p {
     .navigation ul {
         font-size: 36px;
         height: 80px;
+        vertical-align: middle;    
+        
     }
     .sub-navigation ul {
         top:50px;
