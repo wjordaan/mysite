@@ -266,7 +266,7 @@ p {
         top:50px;
         visibility: hidden;
     }
-    
+    .navigation li {vertical-align: middle}
     .navigation li a {
         display: inline-block;
         color: White;
