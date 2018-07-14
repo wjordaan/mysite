@@ -1,7 +1,7 @@
 .header {
     background-image:url(images/digital-background.jpg);
     background-position: center;
-    height: 220px;
+    height: 235px;
     padding-top: 40px;
     color: white;
     font-family: Arial;
@@ -18,7 +18,7 @@
 .sub-header {
     background-image:url(images/digital-background.jpg);
     background-position: center;
-    height: 259px;
+    height: 245px;
     padding-top: 79px;  
     color: white;
     font-family: Arial;
@@ -171,7 +171,7 @@ p {
 .navigation li a {
     display: inline-block;
     color: White;
-    padding: 10px 24px;
+    padding: 6px 24px;
     height: 39px;
     vertical-align: middle;    
     text-decoration: none;
@@ -185,7 +185,8 @@ p {
 /*Navigation pane on right*/
 .sub-navigation ul {
     font-family: arial;
-    font-size: 16px;
+    font-size: 14px;
+    height: 26px;
     list-style-type: none;
     top: 39px;
     margin: 0;
@@ -196,20 +197,23 @@ p {
     background-color: #f1f1f1;
     z-index: 8;
 }
-.sub-navigation li {float: left;}
+.sub-navigation li {float: left;height: 100%;}
 .sub-navigation li a {
     display: inline-block;
     color: rgb(89,81,84);
-    padding: 8px 16px;
+    height: 22px;
+    padding: 2px 16px;
     text-decoration: none;
     text-align:center; 
+    height: 100%; 
     z-index: 8;
 }
 .sub-navigation li a:hover{
     background-color: rgb(40, 55, 71);
     color: white;
     opacity: 0.85;
-    z-index: 11;  
+    z-index: 11;
+    height: 100%; 
 } 
 /*Non-Main pages*/
 .sub-mainpage {
