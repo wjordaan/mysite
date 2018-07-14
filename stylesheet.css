@@ -243,5 +243,9 @@ p {
         text-decoration: none;
         text-align:center;        
     }
-    .icon img {height: 50px;;}
+    .icon img {height: 50px;}
+    .mainpage {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
 }
