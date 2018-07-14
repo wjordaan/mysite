@@ -270,7 +270,7 @@ p {
     .navigation li a {
         display: inline-block;
         color: White;
-        padding: 6px 22px;
+        padding: 10px 22px;
         height: 80px;
         vertical-align: middle;    
         text-decoration: none;
